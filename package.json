@@ -1,0 +1,21 @@
+{
+  "name": "xtend-url",
+  "version": "1.0.0",
+  "description": "Append to an URL without the headache",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "tap test.js --coverage"
+  },
+  "keywords": ["url", "append", "extend"],
+  "author": "Gilles De Mey",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.reduce": "^4.6.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "tap": "^9.0.3"
+  }
+}
