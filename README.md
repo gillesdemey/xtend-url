@@ -20,6 +20,8 @@ npm install --save xtend-url
 const xurl = require('xtend-url')
 
 xurl('http://foo.bar/?baz=qux', '/baz?foo=bar')
+// or
+xurl('http://foo.bar/?baz=qux', { pathname: '/baz', query: { foo: 'bar' } })
 // -> http://foo.bar/baz?baz=qux&foo=bar
 ```
 
